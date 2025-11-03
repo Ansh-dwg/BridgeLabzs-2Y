@@ -40,6 +40,7 @@ class PostgraduateStudent extends Student {
     }
 }
 
+@SuppressWarnings("unused")
 class StudentSystem {
     public static void main(String[] args) {
         Student s = new Student(101, "Alice", 3.85);
