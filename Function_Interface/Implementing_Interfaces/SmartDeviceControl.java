@@ -3,7 +3,6 @@ interface Controllable {
     void turnOff();
 }
 
-// Implementation 1: Light
 class Light implements Controllable {
     @Override
     public void turnOn() {
