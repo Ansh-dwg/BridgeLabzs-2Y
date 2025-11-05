@@ -3,6 +3,7 @@ interface PaymentMethod {
     void pay(double amount);
 }
 
+
 class UPIPayment implements PaymentMethod {
     @Override
     public void pay(double amount) {
